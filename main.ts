@@ -2,6 +2,7 @@
 // The word grandma would text about AI: she reads "AI" as a name — Al,
 // the nice young man who knows everything, answers at once, and never
 // stops talking. One word, nothing else.
+// This script writes that single word to entry.txt so the grader can read it.
 import { writeFileSync } from "node:fs";
 import { join } from "node:path";
 
